@@ -104,3 +104,4 @@ RUNS/
 .floydexpt
 .floydignore
 data/.floyddata
+.vscode/

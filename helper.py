@@ -138,16 +138,3 @@ def save_inference_samples(runs_dir, data_dir, sess, image_shape, logits, keep_p
         sess, logits, keep_prob, input_image, os.path.join(data_dir, 'data_road/testing'), image_shape)
     for name, image in image_outputs:
         scipy.misc.imsave(os.path.join(output_dir, name), image)
-
-
-def convolution1x1(inputs, filters, padding='same', init_std=1e-3, reg_scale=1e-3, name=None):
-    """
-    1x1 2D Convolution -> `tf.layers.conv2d`
-    :param inputs:
-    :param filters:
-    :param padding:
-    :param init_std:
-    :param reg_scale:
-    :param name:
-    :return: output tensor
-    """
