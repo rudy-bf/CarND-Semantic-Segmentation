@@ -112,8 +112,8 @@ def test_optimize(optimize):
 
 @test_safe
 def test_train_nn(train_nn):
-    epochs = 1
-    batch_size = 2
+    epochs = 5
+    batch_size = 5
 
     def get_batches_fn(batach_size_parm):
         shape = [batach_size_parm, 2, 3, 3]
@@ -143,7 +143,9 @@ def test_train_nn(train_nn):
 @test_safe
 def test_for_kitti_dataset(data_dir):
     kitti_dataset_path = os.path.join(data_dir, 'data_road')
+    print("kitti_dataset_path: ", kitti_dataset_path)
     training_labels_count = len(glob(os.path.join(kitti_dataset_path, 'training/gt_image_2/*_road_*.png')))
+    print("training_labels_count: ", training_labels_count)
     training_images_count = len(glob(os.path.join(kitti_dataset_path, 'training/image_2/*.png')))
     testing_images_count = len(glob(os.path.join(kitti_dataset_path, 'testing/image_2/*.png')))
 
