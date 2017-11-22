@@ -106,5 +106,4 @@ RUNS/
 data/.floyddata
 data/vgg
 data/data_road
-data/proofs
 .vscode/
