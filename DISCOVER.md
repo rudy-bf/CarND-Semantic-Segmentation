@@ -29,7 +29,8 @@ Majority of these items came from the Project Walkthrough.
 To train the model, I used the AMI that was provided earlier in class. It definitely accelerated the training. For instance, training w/ 6 epochs on my Macbook took about 2 hours while running it on the AMI took about 15 - 20 minutes.
 
 * Epochs: 6  ------>  Loss: 0.103, Learning Rate: 0.009
-![Image003](./data/proofs/epoch_6/um_000003.png)
+
+![Image003](data/proofs/epoch_6/um_000003.png)
 
 * Epochs: 12 ------>  Loss: 0.068, Learning Rate: 0.009
 * Epochs: 25 ------>  Loss: 0.073, Learning Rate: 0.009
