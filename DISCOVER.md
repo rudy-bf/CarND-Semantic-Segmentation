@@ -30,14 +30,27 @@ To train the model, I used the AMI that was provided earlier in class. It defini
 
 * Epochs: 6  ------>  Loss: 0.103, Learning Rate: 0.009
 
-![Image003](data/proofs/epoch_6/um_000003.png)
+![um_000003](data/proofs/epoch_6/um_000003.png)
+![um_000015](data/proofs/epoch_6/um_000015.png)
 
 * Epochs: 12 ------>  Loss: 0.068, Learning Rate: 0.009
+
+![um_000003](data/proofs/epoch_12/um_000003.png)
+![um_000015](data/proofs/epoch_12/um_000015.png)
+
 * Epochs: 25 ------>  Loss: 0.073, Learning Rate: 0.009
 	* @ Epoch 15 ------> Loss: 0.032 
+
+![um_000003](data/proofs/epoch_25/um_000003.png)
+![um_000015](data/proofs/epoch_25/um_000015.png)
+
+
 * Epochs: 15 ------>  Loss: 0.039, Learning Rate: 0.001
-	* Run: runs/1511327363.53094
+
+![um_000003](data/proofs/epoch_15/um_000003.png)
+![um_000015](data/proofs/epoch_15/um_000015.png)
+
 * Epochs: 50 ------>  Loss: 0.022, Learning Rate: 0.001
-	* Run: runs/1511339463.387004
-
-
+	
+![um_000003](data/proofs/epoch_50/um_000003.png)
+![um_000015](data/proofs/epoch_50/um_000015.png)
