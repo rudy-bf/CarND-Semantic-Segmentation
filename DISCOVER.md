@@ -47,10 +47,16 @@ To train the model, I used the AMI that was provided earlier in class. It defini
 
 * Epochs: 15 ------>  Loss: 0.039, Learning Rate: 0.001
 
-![um_000003](data/proofs/epoch_15/um_000003.png)
-![um_000015](data/proofs/epoch_15/um_000015.png)
+![um_000003](data/proofs/epoch_15_001/um_000003.png)
+![um_000015](data/proofs/epoch_15_001/um_000015.png)
 
 * Epochs: 50 ------>  Loss: 0.022, Learning Rate: 0.001
 	
-![um_000003](data/proofs/epoch_50/um_000003.png)
-![um_000015](data/proofs/epoch_50/um_000015.png)
+![um_000003](data/proofs/epoch_50_001/um_000003.png)
+![um_000015](data/proofs/epoch_50_001/um_000015.png)
+
+* Epochs: 50 ------>  Loss: 0.070, Learning Rate: 0.009
+	* @ Epoch 40 ------> Loss: 0.019
+	
+![um_000003](data/proofs/epoch_50_001/um_000003.png)
+![um_000015](data/proofs/epoch_50_001/um_000015.png)
