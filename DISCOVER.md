@@ -51,6 +51,7 @@ To train the model, I used the AMI that was provided earlier in class. It defini
 ![um_000015](data/proofs/epoch_15_001/um_000015.png)
 
 * Epochs: 50 ------>  Loss: 0.022, Learning Rate: 0.001
+(Reference the `data/winner` folder for a zip with all proof images.)
 	
 ![um_000003](data/proofs/epoch_50_001/um_000003.png)
 ![um_000015](data/proofs/epoch_50_001/um_000015.png)
